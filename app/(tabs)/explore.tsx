@@ -15,7 +15,7 @@ const router = useRouter();
         </Text>
 
         {/* Agregar más contenido desplazable */}
-        <Text style={styles.text}>PROFESOR:</Text>
+        <Text style={styles.title}>PROFESOR:</Text>
         <Text style={styles.text}>PACO GÓMEZ ARNAL</Text>
         <TouchableOpacity style={styles.button} onPress={handlePress}>
           <Button
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   text: {
-    fontSize: 16,
+    fontSize: 18,
     marginBottom: 15,
   },
   button: {
